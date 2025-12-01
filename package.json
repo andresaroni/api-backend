@@ -1,0 +1,20 @@
+{
+  "name": "api-backend",
+  "version": "1.0.0",
+  "description": "API REST para el proyecto de turismo usando json-server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --host 0.0.0.0 --port ${PORT} datos.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json-server",
+    "render"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

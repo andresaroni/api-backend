@@ -1,0 +1,119 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "nombre": "Tour de Avistamiento de Ballenas",
+      "descripcion": "Una emocionante excursión de medio día para observar ballenas jorobadas en su ruta migratoria.",
+      "tipo": "Excursión",
+      "destino": "Puerto López",
+      "duracion": "4 horas",
+      "precioReferencial": 65.00,
+      "disponibilidad": true,
+      "empresaId": 101,
+      "actividadesIncluidas": ["Avistamiento", "Snorkel"]
+    },
+    {
+      "id": 2,
+      "nombre": "Traslado Aeropuerto - Ciudad",
+      "descripcion": "Servicio de transporte privado y seguro desde el aeropuerto principal al centro de la ciudad.",
+      "tipo": "Transporte",
+      "destino": "Guayaquil",
+      "duracion": "1 hora",
+      "precioReferencial": 30.00,
+      "disponibilidad": true,
+      "empresaId": 102,
+      "vehiculo": "Sedán",
+      "capacidad": 4
+    },
+    {
+      "id": 3,
+      "nombre": "Clase de Surf para Principiantes",
+      "descripcion": "Lección de 2 horas con instructor certificado en la playa de Montañita.",
+      "tipo": "Actividad Recreativa",
+      "destino": "Montañita",
+      "duracion": "2 horas",
+      "precioReferencial": 40.00,
+      "disponibilidad": true,
+      "empresaId": 103,
+      "incluyeEquipo": true
+    },
+    {
+      "id": 4,
+      "nombre": "Alojamiento Cabaña Rústica",
+      "descripcion": "Una noche de alojamiento en una acogedora cabaña con vistas al mar.",
+      "tipo": "Alojamiento",
+      "destino": "Salinas",
+      "duracion": "1 noche",
+      "precioReferencial": 80.00,
+      "disponibilidad": false,
+      "empresaId": 101,
+      "serviciosHabitacion": ["WiFi", "Desayuno"]
+    }
+  ],
+  "empresas": [
+    {
+      "id": 101,
+      "nombreEmpresa": "Aventuras del Pacífico",
+      "ruc": "09987654321001",
+      "email": "contacto@aventuras.com",
+      "passwordHash": "$2b$10$XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "telefono": "+593991234567",
+      "direccion": "Av. Principal 123, Puerto López",
+      "tipoUsuario": "Empresa",
+      "serviciosOfrecidos": [1, 4]
+    },
+    {
+      "id": 102,
+      "nombreEmpresa": "Transportes Rápidos Ecuador",
+      "ruc": "09912345678001",
+      "email": "info@transportesra.com",
+      "passwordHash": "$2b$10$YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+      "telefono": "+593987654321",
+      "direccion": "Terminal Terrestre, Guayaquil",
+      "tipoUsuario": "Empresa",
+      "serviciosOfrecidos": [2]
+    }
+  ],
+  "turistas": [
+    {
+      "id": 201,
+      "nombre": "Ana",
+      "apellido": "Pérez",
+      "email": "ana.perez@turista.com",
+      "passwordHash": "$2b$10$AAAAAAAAAABAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAA",
+      "tipoUsuario": "Turista",
+      "nacionalidad": "Ecuador",
+      "reservasRealizadas": []
+    },
+    {
+      "id": 202,
+      "nombre": "Juan",
+      "apellido": "Gómez",
+      "email": "juan.gomez@turista.com",
+      "passwordHash": "$2b$10$BBBBBBBBBABBBBBBBBBABBBBBBBBBABBBBBBBBBBBBBBBBBB",
+      "tipoUsuario": "Turista",
+      "nacionalidad": "España",
+      "reservasRealizadas": []
+    }
+  ],
+  "reservas": [
+    {
+      "id": 301,
+      "servicioId": 1,
+      "turistaId": 201,
+      "fechaReserva": "2025-12-15",
+      "cantidadPersonas": 2,
+      "estado": "Pendiente",
+      "presupuestoTotal": 130.00
+    },
+    {
+      "id": 302,
+      "servicioId": 3,
+      "turistaId": 202,
+      "fechaReserva": "2026-01-05",
+      "cantidadPersonas": 1,
+      "estado": "Confirmada",
+      "presupuestoTotal": 40.00
+    }
+  ]
+}
