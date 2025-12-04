@@ -10,7 +10,10 @@
       "precioReferencial": 65.00,
       "disponibilidad": true,
       "empresaId": 101,
-      "actividadesIncluidas": ["Avistamiento", "Snorkel"]
+      "actividadesIncluidas": [
+        "Avistamiento",
+        "Snorkel"
+      ]
     },
     {
       "id": 2,
@@ -47,7 +50,10 @@
       "precioReferencial": 80.00,
       "disponibilidad": false,
       "empresaId": 101,
-      "serviciosHabitacion": ["WiFi", "Desayuno"]
+      "serviciosHabitacion": [
+        "WiFi",
+        "Desayuno"
+      ]
     }
   ],
   "empresas": [
@@ -56,22 +62,25 @@
       "nombreEmpresa": "Aventuras del Pacífico",
       "ruc": "09987654321001",
       "email": "contacto@aventuras.com",
-      "passwordHash": "$2b$10$XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "telefono": "+593991234567",
       "direccion": "Av. Principal 123, Puerto López",
       "tipoUsuario": "Empresa",
-      "serviciosOfrecidos": [1, 4]
+      "serviciosOfrecidos": [
+        1,
+        4
+      ]
     },
     {
       "id": 102,
       "nombreEmpresa": "Transportes Rápidos Ecuador",
       "ruc": "09912345678001",
       "email": "info@transportesra.com",
-      "passwordHash": "$2b$10$YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
       "telefono": "+593987654321",
       "direccion": "Terminal Terrestre, Guayaquil",
       "tipoUsuario": "Empresa",
-      "serviciosOfrecidos": [2]
+      "serviciosOfrecidos": [
+        2
+      ]
     }
   ],
   "turistas": [
@@ -80,7 +89,6 @@
       "nombre": "Ana",
       "apellido": "Pérez",
       "email": "ana.perez@turista.com",
-      "passwordHash": "$2b$10$AAAAAAAAAABAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAA",
       "tipoUsuario": "Turista",
       "nacionalidad": "Ecuador",
       "reservasRealizadas": []
@@ -90,7 +98,6 @@
       "nombre": "Juan",
       "apellido": "Gómez",
       "email": "juan.gomez@turista.com",
-      "passwordHash": "$2b$10$BBBBBBBBBABBBBBBBBBABBBBBBBBBABBBBBBBBBBBBBBBBBB",
       "tipoUsuario": "Turista",
       "nacionalidad": "España",
       "reservasRealizadas": []
