@@ -81,7 +81,6 @@
       "nombre": "Ana",
       "apellido": "Pérez",
       "email": "ana.perez@turista.com",
-      "tipoUsuario": "Turista",
       "nacionalidad": "Ecuador",
       "reservasRealizadas": [301]
     },
@@ -90,7 +89,6 @@
       "nombre": "Juan",
       "apellido": "Gómez",
       "email": "juan.gomez@turista.com",
-      "tipoUsuario": "Turista",
       "nacionalidad": "España",
       "reservasRealizadas": [302]
     }
