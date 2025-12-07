@@ -9,7 +9,7 @@
       "duracion": "4 horas",
       "precioReferencial": 65.00,
       "disponibilidad": true,
-      "url": "https://beachlifeecuador.com/wp-content/uploads/2021/06/Avistamiento-de-ballenas-jorobadas-en-Ecuador.jpg",
+      "imagen": "https://beachlifeecuador.com/wp-content/uploads/2021/06/Avistamiento-de-ballenas-jorobadas-en-Ecuador.jpg",
       "empresaId": 101
     },
     {
@@ -21,7 +21,7 @@
       "duracion": "1 hora",
       "precioReferencial": 30.00,
       "disponibilidad": true,
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH0IGmK31cOjF_VvOBI_bW_Ua77m19Y86eLw&s",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH0IGmK31cOjF_VvOBI_bW_Ua77m19Y86eLw&s",
       "empresaId": 102,
       "vehiculo": "Sedán"
     },
@@ -34,7 +34,7 @@
       "duracion": "2 horas",
       "precioReferencial": 40.00,
       "disponibilidad": true,
-      "url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/qrcyo9ft1etxd2hayfvp/ClasedesurfparaprincipiantesenNoosaHeads.jpg",
+      "imagen": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/qrcyo9ft1etxd2hayfvp/ClasedesurfparaprincipiantesenNoosaHeads.jpg",
       "empresaId": 103
     },
     {
@@ -46,7 +46,7 @@
       "duracion": "1 noche",
       "precioReferencial": 80.00,
       "disponibilidad": false,
-      "url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/423748204.jpg?k=7ed7b39a5e95a8a9553b28957561d76c4120917bfc5571533b79af3ba863addb&o=",
+      "imagen": "https://q-xx.bstatic.com/xdata/images/hotel/max500/423748204.jpg?k=7ed7b39a5e95a8a9553b28957561d76c4120917bfc5571533b79af3ba863addb&o=",
       "empresaId": 101
     }
   ],
