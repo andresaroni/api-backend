@@ -81,16 +81,14 @@
       "nombre": "Ana",
       "apellido": "Pérez",
       "email": "ana.perez@turista.com",
-      "nacionalidad": "Ecuador",
-      "reservasRealizadas": [301]
+      "nacionalidad": "Ecuador"
     },
     {
       "id": 202,
       "nombre": "Juan",
       "apellido": "Gómez",
       "email": "juan.gomez@turista.com",
-      "nacionalidad": "España",
-      "reservasRealizadas": [302]
+      "nacionalidad": "España"
     }
   ],
   "reservas": [
@@ -101,7 +99,7 @@
       "fechaReserva": "2025-12-15",
       "cantidadPersonas": 2,
       "estado": "Pendiente",
-      "presupuestoTotal": 130.00
+      "precioReserva": 130.00
     },
     {
       "id": 302,
@@ -110,7 +108,7 @@
       "fechaReserva": "2026-01-05",
       "cantidadPersonas": 1,
       "estado": "Confirmada",
-      "presupuestoTotal": 40.00
+      "precioReserva": 40.00
     }
   ]
 }
